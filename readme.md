@@ -1,7 +1,7 @@
 # Fine-tuning Cross-Encoder for Greek Natural Language Inference (lighteternal/nli-xlm-r-greek)
 
 This project includes a natural language inference (NLI) model, developed
-by fine-tuning Transformers on a Greek Textual Entailment Corpus dataset [link](https://inventory.clarin.gr/corpus/689). 
+by fine-tuning a Sentence-BERT pre-trained model on a Greek Textual Entailment Corpus dataset [link](https://inventory.clarin.gr/corpus/689). 
 
 The purpose of this project is to present fine-tuning examples of HuggingFace models, using PyTorch or transformers libraries.   
 
@@ -63,10 +63,10 @@ python test_trained_model.py
 ```
 
 ## HuggingFace fine-tuning
-* Fine-tuning model, using HuggingFace transformers libraries
+* Fine-tuning model, using HuggingFace transformers libraries.
 * Calculate the accuracy of fine-tuned model on the validation dataset. 
 
-Accuracy: 0.56-0.60
+Accuracy: 0.56
 
 ```shell script
 cd src
@@ -75,10 +75,10 @@ python tune_huggingface.py
 
 
 ## PyTorch fine-tuning
-* Fine-tuning model, using PyTorch libraries
+* Fine-tuning model, using PyTorch libraries.
 * Calculate the accuracy of fine-tuned model on the validation dataset. 
 
-Accuracy: 0.60-0.63
+Accuracy: 0.60
 
 ```shell script
 cd src
